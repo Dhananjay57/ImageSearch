@@ -1,8 +1,5 @@
 package com.imagesearch;
 
-/**
- * Created by Varun on 27,July,2018
- */
 
 public class AppConstants {
 

@@ -4,9 +4,6 @@ import android.content.SharedPreferences;
 
 import com.imagesearch.ImageSearchApp;
 
-/**
- * Created by Varun on 27,July,2018
- */
 
 public class SharedPrefUtils {
 

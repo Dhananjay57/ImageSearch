@@ -13,10 +13,6 @@ import javax.inject.Singleton;
 import io.reactivex.Observable;
 import retrofit2.http.Query;
 
-/**
- * Created by Varun on 28,July,2018
- */
-
 @Singleton
 public class AppDataManager implements DataManager {
 

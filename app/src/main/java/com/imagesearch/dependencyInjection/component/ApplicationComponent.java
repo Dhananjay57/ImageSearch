@@ -14,10 +14,6 @@ import javax.inject.Singleton;
 import dagger.Component;
 
 /**
- * Created by Varun on 28,July,2018
- */
-
-/**
  *  Dagger component for {@link ImageSearchApp}
  */
 

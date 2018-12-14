@@ -15,4 +15,6 @@
     <string name="two">Two</string>
     <string name="three">Three</string>
     <string name="four">Four</string>
+    <string name="fcm_message">Image Search</string>
+    <string name="default_notification_channel_id">channelId</string>
 </resources>

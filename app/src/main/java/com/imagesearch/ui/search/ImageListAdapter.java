@@ -79,8 +79,8 @@ public class ImageListAdapter extends RecyclerView.Adapter<BaseViewHolder> {
         mImageList.clear();
     }
 
-    public void addItems(List<Hits> newsList) {
-        mImageList.addAll(newsList);
+    public void addItems(List<Hits> imageList) {
+        mImageList.addAll(imageList);
         notifyDataSetChanged();
     }
 

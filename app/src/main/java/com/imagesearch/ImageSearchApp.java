@@ -14,10 +14,6 @@ import com.imagesearch.dependencyInjection.module.NetworkModule;
 
 import javax.inject.Inject;
 
-/**
- * Created by Varun on 27,July,2018
- */
-
 public class ImageSearchApp extends Application {
 
     @Inject

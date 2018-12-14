@@ -6,9 +6,6 @@ import com.imagesearch.utils.rx.SchedulerProvider;
 import dagger.Module;
 import dagger.Provides;
 
-/**
- * Created by Vaun on 28,July,2018
- */
 
 @Module
 public class FullScreenImageDialogModule {

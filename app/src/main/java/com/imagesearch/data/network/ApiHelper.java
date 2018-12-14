@@ -1,8 +1,5 @@
 package com.imagesearch.data.network;
 
-/**
- * Created by Varun on 28,July,2018
- */
 
 import com.imagesearch.data.network.model.SearchResponse;
 

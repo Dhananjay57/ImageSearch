@@ -10,10 +10,6 @@ import com.imagesearch.dependencyInjection.PreferenceInfo;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
-/**
- * Created by Varun on 28,July,2018
- */
-
 @Singleton
 public class AppPreferencesHelper implements PreferencesHelper {
 

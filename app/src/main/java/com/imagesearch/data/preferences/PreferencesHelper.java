@@ -1,9 +1,5 @@
 package com.imagesearch.data.preferences;
 
-/**
- * Created by Varun on 28,July,2018
- */
-
 public interface PreferencesHelper {
 
     void saveState(String keyString, int key);

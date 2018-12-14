@@ -18,9 +18,6 @@ import javax.inject.Singleton;
 import dagger.Module;
 import dagger.Provides;
 
-/**
- * Created by Varun on 28,July,2018
- */
 
 /**
  *  Dagger dependency provider for {@link com.imagesearch.ImageSearchApp}

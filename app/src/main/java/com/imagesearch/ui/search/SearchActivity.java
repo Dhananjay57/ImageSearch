@@ -4,11 +4,11 @@ import android.app.SearchManager;
 import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -88,6 +88,10 @@ public class SearchActivity extends BaseActivity<ActivitySearchBinding, SearchVi
     }
 
     protected void setUp() {
+        Intent intent = getIntent();
+            if(intent.getStringExtra("Message_Body")!= null) {
+                mQuery = intent.getStringExtra("Message_Body");
+        }
         setSupportActionBar(mToolbar);
         setTitle(mQuery +" Images");
         mSearchActivityBinding.recyclerView.setLayoutManager(mLayoutManager);
@@ -136,10 +140,10 @@ public class SearchActivity extends BaseActivity<ActivitySearchBinding, SearchVi
     }
 
     @Override
-    public void setAdapter(List<Hits> newsItems) {
+    public void setAdapter(List<Hits> imageItems) {
         hideLoading();
 
-        mImageAdapter.addItems(newsItems);
+        mImageAdapter.addItems(imageItems);
         if (mSearchActivityBinding.recyclerView.getAdapter() == null) {
             mSearchActivityBinding.recyclerView.setAdapter(mImageAdapter);
         }

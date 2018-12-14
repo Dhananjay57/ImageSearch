@@ -1,9 +1,5 @@
 package com.imagesearch.dependencyInjection.module;
 
-/**
- * Created by Varun on 28,July,2018
- */
-
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

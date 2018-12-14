@@ -19,13 +19,13 @@ android {
     buildTypes {
         debug {
             buildConfigField("String", "BASE_URL", "\"https://pixabay.com/\"")
-            buildConfigField("String", "PIXABAY_API_KEY", "\"8839013-bb6f0e58de751eb582dce34fa\"")
+            buildConfigField("String", "PIXABAY_API_KEY", "\"10985878-a2d1d5d0d80e8a93bba360918\"")
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField("String", "BASE_URL", "\"https://pixabay.com/\"")
-            buildConfigField("String", "PIXABAY_API_KEY", "\"8839013-bb6f0e58de751eb582dce34fa\"")
+            buildConfigField("String", "PIXABAY_API_KEY", "\"10985878-a2d1d5d0d80e8a93bba360918\"")
         }
     }
 

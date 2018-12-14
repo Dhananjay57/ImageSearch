@@ -7,9 +7,6 @@ import com.imagesearch.ui.search.fullimage.FullScreenImageDialog;
 
 import dagger.Component;
 
-/**
- * Created by Varun on 28,July,2018
- */
 
 /**
  *  Dagger component for {@link SearchActivity}

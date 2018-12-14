@@ -8,10 +8,6 @@ import com.google.gson.annotations.SerializedName;
 
 import org.w3c.dom.Comment;
 
-/**
- * Created by Varun on 28,July,2018
- */
-
 public class Hits implements Parcelable {
 
     @SerializedName("previewURL")

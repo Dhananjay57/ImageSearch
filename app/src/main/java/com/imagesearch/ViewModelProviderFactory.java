@@ -3,9 +3,6 @@ package com.imagesearch;
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 
-/**
- * Created by Varun on 28,July,2018
- */
 
 public class ViewModelProviderFactory<V> implements ViewModelProvider.Factory {
 
