@@ -11,4 +11,8 @@
 
     <string name="search_hint">Search images</string>
     <string name="grid_options">Grid Options</string>
+    <string name="show_columns">Show columns:</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="four">Four</string>
 </resources>

@@ -8,7 +8,7 @@ android {
     compileSdkVersion 27
     buildToolsVersion "27.0.3"
     defaultConfig {
-        applicationId "imagesearchsample.com.imagesearchsample"
+        applicationId "com.imagesearch"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
@@ -56,6 +56,8 @@ dependencies {
     implementation "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
     implementation "com.android.support:design:$rootProject.supportLibraryVersion"
     implementation "com.android.support.constraint:constraint-layout:$rootProject.constraintLayoutVersion"
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
 
     // network
     implementation "com.amitshekhar.android:rx2-android-networking:$rootProject.rx2FastAndroidNetworking"
@@ -103,3 +105,4 @@ configurations.all {
     resolutionStrategy.force "com.android.support:support-annotations:$supportLibraryVersion"
     resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
 }
+apply plugin: 'com.google.gms.google-services'

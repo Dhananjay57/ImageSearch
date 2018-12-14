@@ -16,10 +16,6 @@ import com.imagesearch.utils.SharedPrefUtils;
 
 import java.lang.ref.WeakReference;
 
-/**
- * Created by Varun on 28,July,2018
- */
-
 public class GridColumnsPopupWindow extends PopupWindow {
 
     public enum GridMode {

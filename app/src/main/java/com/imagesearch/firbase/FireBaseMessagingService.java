@@ -1,4 +1,7 @@
 package com.imagesearch.firbase;
 
-public class FireBaseMessagingService {
+import com.google.firebase.messaging.FirebaseMessagingService;
+
+public class FireBaseMessagingService extends FirebaseMessagingService {
+    
 }

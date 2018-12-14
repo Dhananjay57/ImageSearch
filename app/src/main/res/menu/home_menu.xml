@@ -8,15 +8,15 @@
         android:icon="@android:drawable/ic_menu_search"
         android:title="@string/search_hint"
         app:actionViewClass="android.support.v7.widget.SearchView"
-        app:showAsAction="always"
+        app:showAsAction="ifRoom"
         compat:actionViewClass="android.support.v7.widget.SearchView"
-        compat:showAsAction="always" />
+        compat:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_grid_options"
         android:icon="@android:drawable/ic_menu_more"
         android:title="@string/grid_options"
-        app:showAsAction="always"
-        compat:showAsAction="always" />
+        app:showAsAction="ifRoom"
+        compat:showAsAction="ifRoom" />
 
 </menu>
