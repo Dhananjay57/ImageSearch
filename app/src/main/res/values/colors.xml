@@ -7,4 +7,5 @@
     <color name="row_bg">#424242</color>
     <color name="colorBlack">#000000</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#CBCBCB</color>
 </resources>

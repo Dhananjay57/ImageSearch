@@ -13,6 +13,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:gravity="center"
         android:text="@string/tripoto_image_search"
+        android:textColor="@color/colorWhite"
         android:textSize="24sp"
         android:textAllCaps="true"
         android:textStyle="bold"

@@ -8,13 +8,11 @@ import com.imagesearch.R
 
 class SplashActivity : AppCompatActivity(){
     private var mDelayHandler: Handler? = null
-    private val SPLASH_DELAY: Long = 3000 //3 seconds
+    private val SPLASH_DELAY: Long = 2000 //2 seconds
 
     internal val mRunnable: Runnable = Runnable {
         if (!isFinishing) {
-
             val intent = Intent(applicationContext,
-
                     SearchActivity::class.java)
             startActivity(intent)
             finish()
@@ -26,7 +24,6 @@ class SplashActivity : AppCompatActivity(){
         setContentView(R.layout.activity_splash)
         //Initialize the Handler
         mDelayHandler = Handler()
-
         //Navigate with delay
         mDelayHandler!!.postDelayed(mRunnable, SPLASH_DELAY)
     }

@@ -82,6 +82,7 @@ public class AppDataManager implements DataManager {
                                                    @Query("image_type") String image_type,
                                                    @Query("page") Integer page,
                                                    @Query("per_page") Integer per_page) {
+
         return mApiHelper.searchImages(apiKey, query, image_type, page, per_page);
     }
 

@@ -7,15 +7,11 @@ import com.imagesearch.BuildConfig;
 import com.imagesearch.data.DataManager;
 import com.imagesearch.data.network.QueryBuilder;
 import com.imagesearch.data.network.model.Hits;
-import com.imagesearch.data.network.model.SearchResponse;
 import com.imagesearch.ui.base.BaseViewModel;
 import com.imagesearch.utils.rx.SchedulerProvider;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import io.reactivex.annotations.NonNull;
-import io.reactivex.functions.Consumer;
 
 
 public class SearchViewModel extends BaseViewModel<SearchNavigator> {
