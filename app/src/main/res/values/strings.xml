@@ -17,4 +17,5 @@
     <string name="four">Four</string>
     <string name="fcm_message">Image Search</string>
     <string name="default_notification_channel_id">channelId</string>
+    <string name="tripoto_image_search">Tripoto Image Search</string>
 </resources>

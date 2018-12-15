@@ -40,9 +40,6 @@ public class SearchActivity extends BaseActivity<ActivitySearchBinding, SearchVi
         implements ImagesColumnCallback, ImageListAdapter.Callback,
         SearchView.OnQueryTextListener, SearchNavigator {
 
-//    @BindView(R.id.recycler_view)
-//    public RecyclerView mRecyclerView;
-
     @BindView(R.id.toolbar)
     public Toolbar mToolbar;
 
@@ -85,12 +82,14 @@ public class SearchActivity extends BaseActivity<ActivitySearchBinding, SearchVi
                 .build();
 
         mSearchActivityComponent.inject(this);
+
     }
 
     protected void setUp() {
         Intent intent = getIntent();
             if(intent.getStringExtra("Message_Body")!= null) {
-                mQuery = intent.getStringExtra("Message_Body");
+                final String messageBody = intent.getStringExtra("Message_Body");
+                mQuery = intent.getStringExtra("Custom_Data");
         }
         setSupportActionBar(mToolbar);
         setTitle(mQuery +" Images");
