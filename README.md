@@ -11,7 +11,7 @@ The app has following packages:
 5. ui: base,View classes along with their corresponding ViewModel.
 6. utils: Utility classes.
 
-Important Classes and things
+Important Classes and things:
 .Splash activity has no layout file, instead the ui is populated using theme for faster load.
 .Paging-Infinit scroll support with EndlessRecyclerViewScrollListener.
  source:https://gist.github.com/nesquena/d09dc68ff07e845cc622
