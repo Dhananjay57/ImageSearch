@@ -1,5 +1,5 @@
 # ImageSearch Application (Tripoto assignment)
-Application Arcitecture:
+### Application Arcitecture:
 Arcitecture of the project follows the principles of MVVM(Model-View-Viewodel) concept.
 source:https://github.com/MindorksOpenSource/android-mvvm-architecture
 
