@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81395784-69c6-46e2-bebe-7a162a85d417" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/screenshot/Screenshot_2018-12-16-15-08-16-176_com.imagesearch.png" afterPath="$PROJECT_DIR$/screenshot/Screenshot_2018-12-16-15-08-16-176_com.imagesearch.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -3321,7 +3321,7 @@
         <state relative-caret-position="54">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#35#357#0" expanded="true" />
+            <element signature="e#35#357#0" expanded="false" />
           </folding>
         </state>
       </provider>
