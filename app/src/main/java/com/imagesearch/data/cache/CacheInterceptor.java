@@ -29,6 +29,7 @@ public class CacheInterceptor implements Interceptor {
         Response response;
         if (ImageSearchApp.isNetworkAvailable()) {
             try {
+                //
                 response = chain.proceed(request);
                 Response newResponse = response.newBuilder().build();
 

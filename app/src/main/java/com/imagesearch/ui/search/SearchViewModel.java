@@ -13,7 +13,6 @@ import com.imagesearch.utils.rx.SchedulerProvider;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class SearchViewModel extends BaseViewModel<SearchNavigator> {
 
     public final ObservableField<String> appVersion = new ObservableField<>();
@@ -41,9 +40,7 @@ public class SearchViewModel extends BaseViewModel<SearchNavigator> {
                 .subscribeOn(getSchedulerProvider().io())
                 .observeOn(getSchedulerProvider().ui())
                 .subscribe(searchResponse -> {
-
                     mPage = page;
-
                     List<Hits> images = new ArrayList<Hits>();
 
                     if (searchResponse == null) {
@@ -57,12 +54,16 @@ public class SearchViewModel extends BaseViewModel<SearchNavigator> {
                         getNavigator().onError(null);
                     }
                     getNavigator().setAdapter(images);
+
+                    // Room method to save images
                 }, t -> {
 
                     Log.d("MYLOGS", "Throwable: " + t.toString());
 
                     getNavigator().setAdapter(new ArrayList<Hits>());
                     getNavigator().onError(t);
+
+                    // If present in room
                 }));
     }
 
