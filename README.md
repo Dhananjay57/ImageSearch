@@ -1,6 +1,6 @@
 # ImageSearch Application (Tripoto assignment)
-Application Arcitecture:
-Arcitecture of the project follows the principles of MVVM(Model-View-Viewodel) concept.
+### Application Arcitecture:
+#### Arcitecture of the project follows the principles of MVVM(Model-View-Viewodel) concept.
 source:https://github.com/MindorksOpenSource/android-mvvm-architecture
 
 The app has following packages:
@@ -11,13 +11,19 @@ The app has following packages:
 5. ui: base,View classes along with their corresponding ViewModel.
 6. utils: Utility classes.
 
-Important Classes and things:
-.Splash activity has no layout file, instead the ui is populated using theme for faster load.
-.Paging-Infinit scroll support with EndlessRecyclerViewScrollListener.
- source:https://gist.github.com/nesquena/d09dc68ff07e845cc622
-.Response are cached offline using okhttp Intercepter.
-.CacheManager, CacheInterceptor
+## Important Classes and things:
+* Splash activity has no layout file, instead the ui is populated using theme for faster load.
+* Paging-Infinit scroll support with EndlessRecyclerViewScrollListener.
+  source:https://gist.github.com/nesquena/d09dc68ff07e845cc622
+* Response are cached offline using okhttp Intercepter.
+* CacheManager, CacheInterceptor
  source:https://github.com/JakeWharton/DiskLruCache
-.GridColumnsPopupWindow.
+* GridColumnsPopupWindow.
 
+## Screenshot
+
+![splash_screen](https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/splash.jpg?raw=true)
+![search_screen](https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/Screenshot_2018-12-16-15-08-16-176_com.imagesearch.png?raw=true)
+![search_screen](https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/Screenshot_2018-12-16-15-08-38-846_com.imagesearch.png?raw=true)
+![search_screen](https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/Screenshot_2018-12-16-15-08-54-663_com.imagesearch.png?raw=true)
 
