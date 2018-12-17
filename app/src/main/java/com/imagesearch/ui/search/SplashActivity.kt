@@ -3,6 +3,7 @@ package com.imagesearch.ui.search
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.google.firebase.messaging.FirebaseMessaging
 import io.reactivex.Completable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -24,6 +25,8 @@ class SplashActivity : AppCompatActivity() {
                     startActivity(intent)
                     finish()
                 })
+
+        FirebaseMessaging.getInstance().subscribeToTopic("all")
     }
 
     override fun onResume() {

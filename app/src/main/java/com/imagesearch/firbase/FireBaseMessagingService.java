@@ -34,7 +34,7 @@ public class FireBaseMessagingService extends FirebaseMessagingService {
         // Check if message contains a data payload.
         if (remoteMessage.getData().size() > 0) {
             Log.d(TAG, "Message data payload: " + remoteMessage.getData());
-           // sendNotification(remoteMessage.getData().get(0));
+            // sendNotification(remoteMessage.getData().get(0));
         }
 
         // Check if message contains a notification payload.
@@ -42,7 +42,17 @@ public class FireBaseMessagingService extends FirebaseMessagingService {
             Log.d(TAG, "Message Notification Body: " + remoteMessage.getNotification().getBody());
         }
 
-        sendNotification(remoteMessage.getNotification().getBody(), remoteMessage.getData().get("search_term"));
+        String body = "body";
+        String searchTerm = "Landscape";
+
+        try {
+            body = remoteMessage.getData().get("body");
+            searchTerm = remoteMessage.getData().get("search_term");
+        } catch (Exception e) {
+
+        }
+
+        sendNotification(body, searchTerm);
 
         // Also if you intend on generating your own notifications as a result of a received FCM
         // message, here is where that should be initiated. See sendNotification method below.
