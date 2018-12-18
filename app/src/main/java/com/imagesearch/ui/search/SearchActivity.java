@@ -87,9 +87,10 @@ public class SearchActivity extends BaseActivity<ActivitySearchBinding, SearchVi
 
     protected void setUp() {
         Intent intent = getIntent();
-            if(intent.getStringExtra("Message_Body")!= null) {
+            if(intent.getStringExtra("Message_Body")!= null ||
+                    intent.getStringExtra("search_term")!= null) {
                 final String messageBody = intent.getStringExtra("Message_Body");
-                mQuery = intent.getStringExtra("Custom_Data");
+                mQuery = intent.getStringExtra("search_term");
         }
         setSupportActionBar(mToolbar);
         setTitle(mQuery +" Images");
