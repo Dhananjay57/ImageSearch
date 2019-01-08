@@ -20,13 +20,5 @@ The app has following packages:
  source:https://github.com/JakeWharton/DiskLruCache
 * GridColumnsPopupWindow.
 
-## Screenshot
-
-![splash_screen](https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/splash.png?raw=true)
-
-![search_screen](https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/Screenshot_2018-12-16-15-08-16-176_com.imagesearch.png?raw=true)
-
-![search_screen](https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/Screenshot_2018-12-16-15-08-38-846_com.imagesearch.png?raw=true)
-
-![search_screen](https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/Screenshot_2018-12-16-15-08-54-663_com.imagesearch.png?raw=true)
+<img src="https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/Screenshot_2018-12-16-15-08-16-176_com.imagesearch.png" width="200" style="max-width:100%;"><img src="https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/Screenshot_2018-12-16-15-08-38-846_com.imagesearch.png" width="200" style="max-width:100%;"><img src="https://github.com/Dhananjay57/ImageSearch/blob/master/screenshot/Screenshot_2018-12-16-15-08-54-663_com.imagesearch.png" width="200" style="max-width:100%;"></br></br>
 
